@@ -13,7 +13,7 @@ function menu (){
     } else if (intro == 2) {
         let intro_2 = prompt("Seleccione una opción \n 1. Problemas con la señal \n 2. Problemas con las llamadas");
         var respuesta_2 = prompt("A continuación escriba su solicitud");
-        prompt("Estimado usuario, su solicitud: '" + respuesta_2 + "' Ha sido ingresada con éxito. Pronto será contactado por uno de nuestros ejecutivos.")
+        alert("Estimado usuario, su solicitud: '" + respuesta_2 + "' Ha sido ingresada con éxito. Pronto será contactado por uno de nuestros ejecutivos.")
 
     } else if (intro == 3) {
         let intro_3 = prompt("Seleccione una opción \n 1. ¡Mentel tiene una oferta comercial de acuerdo a tus necesidades! \n  Para conocer más información y ser asesorado personalmente por un ejecutivo, escribe 'SI' y un ejecutivo te llamará. De lo contrario ingrese 'NO'");
